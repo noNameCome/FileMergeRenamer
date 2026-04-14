@@ -90,10 +90,10 @@ python main.py
 
 ## 화면 구성
 
-```
+
 <img width="818" height="672" alt="Snipaste_2026-04-14_15-16-39" src="https://github.com/user-attachments/assets/927c418b-b37b-4a53-a3a8-5ece5456cf55" />
 
-```
+
 
 ---
 
