@@ -513,10 +513,7 @@ class MainWindow(QMainWindow):
         self.output_input.clear()
 
     def browse_output(self):
-        if self.radio_zip.isChecked():
-            path, _ = QFileDialog.getSaveFileName(self, "ZIP 저장 위치", "", "ZIP (*.zip)")
-        else:
-            path = QFileDialog.getExistingDirectory(self, "저장 폴더 선택")
+        path = QFileDialog.getExistingDirectory(self, "저장 폴더 선택")
         if path:
             self.output_input.setText(path)
 
